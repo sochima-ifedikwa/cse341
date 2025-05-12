@@ -4,9 +4,14 @@ const express = require('express');
 const app = express();
  
 app.get('/', (req, res) => {
-  res.send("Jaja Ifedikwa");
+  res.send("Joseph Ifedikwa");
 });
- 
+
+
+app.get('/sochima', (req, res) => {
+  res.send("Sochima Ifedikwa");
+});
+
 const port = 3000;
 
 
