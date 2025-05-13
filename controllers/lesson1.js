@@ -6,7 +6,11 @@ const josephRoute = (req, res) => {
   res.send("Joseph Ifedikwa");
 };
 
+const jajaRoute = (req, res) => {
+  res.send("Jaja Ifedikwa");
+};
 module.exports = {
     sochimaRoute,
-    josephRoute
+    josephRoute,
+    jajaRoute
 };
