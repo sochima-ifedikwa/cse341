@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/sochima-ifedikwa/cse341#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"

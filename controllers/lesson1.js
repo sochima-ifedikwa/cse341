@@ -13,6 +13,8 @@ const jajaRoute = (req, res) => {
 const chisomRoute = (req, res) => {
   res.send("Chisom Okebugwu");
 };
+
+// This is the main route for the aplication to export the routes
 module.exports = {
     sochimaRoute,
     josephRoute,
